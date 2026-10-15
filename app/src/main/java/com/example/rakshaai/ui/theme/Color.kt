@@ -1,0 +1,73 @@
+package com.example.rakshaai.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Brand palette. Indigo conveys trust, teal is used for "safe" and contact surfaces,
+// amber marks informational notices, and a fixed SOS red is reserved for emergency actions.
+
+// Light scheme
+internal val LightPrimary = Color(0xFF4B3FAE)
+internal val LightOnPrimary = Color(0xFFFFFFFF)
+internal val LightPrimaryContainer = Color(0xFFE4DFFF)
+internal val LightOnPrimaryContainer = Color(0xFF150563)
+internal val LightSecondary = Color(0xFF00696B)
+internal val LightOnSecondary = Color(0xFFFFFFFF)
+internal val LightSecondaryContainer = Color(0xFFB3F0EE)
+internal val LightOnSecondaryContainer = Color(0xFF002020)
+internal val LightTertiary = Color(0xFF835400)
+internal val LightOnTertiary = Color(0xFFFFFFFF)
+internal val LightTertiaryContainer = Color(0xFFFFDDB8)
+internal val LightOnTertiaryContainer = Color(0xFF2A1700)
+internal val LightError = Color(0xFFBA1A1A)
+internal val LightOnError = Color(0xFFFFFFFF)
+internal val LightErrorContainer = Color(0xFFFFDAD6)
+internal val LightOnErrorContainer = Color(0xFF410002)
+internal val LightBackground = Color(0xFFFCFBFF)
+internal val LightOnBackground = Color(0xFF1B1B21)
+internal val LightSurface = Color(0xFFFCFBFF)
+internal val LightOnSurface = Color(0xFF1B1B21)
+internal val LightSurfaceVariant = Color(0xFFE5E1EC)
+internal val LightOnSurfaceVariant = Color(0xFF47464F)
+internal val LightOutline = Color(0xFF787680)
+internal val LightOutlineVariant = Color(0xFFC8C5D0)
+internal val LightSurfaceContainerLowest = Color(0xFFFFFFFF)
+internal val LightSurfaceContainerLow = Color(0xFFF6F2FA)
+internal val LightSurfaceContainer = Color(0xFFF0ECF4)
+internal val LightSurfaceContainerHigh = Color(0xFFEAE7EF)
+internal val LightSurfaceContainerHighest = Color(0xFFE5E1E9)
+
+// Dark scheme
+internal val DarkPrimary = Color(0xFFC6BFFF)
+internal val DarkOnPrimary = Color(0xFF2A1A8F)
+internal val DarkPrimaryContainer = Color(0xFF3A2C98)
+internal val DarkOnPrimaryContainer = Color(0xFFE4DFFF)
+internal val DarkSecondary = Color(0xFF80D4D2)
+internal val DarkOnSecondary = Color(0xFF003737)
+internal val DarkSecondaryContainer = Color(0xFF004F50)
+internal val DarkOnSecondaryContainer = Color(0xFFB3F0EE)
+internal val DarkTertiary = Color(0xFFFFB95F)
+internal val DarkOnTertiary = Color(0xFF462A00)
+internal val DarkTertiaryContainer = Color(0xFF643F00)
+internal val DarkOnTertiaryContainer = Color(0xFFFFDDB8)
+internal val DarkError = Color(0xFFFFB4AB)
+internal val DarkOnError = Color(0xFF690005)
+internal val DarkErrorContainer = Color(0xFF93000A)
+internal val DarkOnErrorContainer = Color(0xFFFFDAD6)
+internal val DarkBackground = Color(0xFF131318)
+internal val DarkOnBackground = Color(0xFFE5E1E9)
+internal val DarkSurface = Color(0xFF131318)
+internal val DarkOnSurface = Color(0xFFE5E1E9)
+internal val DarkSurfaceVariant = Color(0xFF47464F)
+internal val DarkOnSurfaceVariant = Color(0xFFC8C5D0)
+internal val DarkOutline = Color(0xFF928F9A)
+internal val DarkOutlineVariant = Color(0xFF47464F)
+internal val DarkSurfaceContainerLowest = Color(0xFF0E0E13)
+internal val DarkSurfaceContainerLow = Color(0xFF1B1B21)
+internal val DarkSurfaceContainer = Color(0xFF1F1F25)
+internal val DarkSurfaceContainerHigh = Color(0xFF2A292F)
+internal val DarkSurfaceContainerHighest = Color(0xFF35343A)
+
+// SOS colors stay identical in light and dark themes so the emergency action is always recognisable.
+// White on this red has a contrast ratio above 5:1.
+val SosRed = Color(0xFFC62828)
+val OnSosRed = Color(0xFFFFFFFF)

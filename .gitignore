@@ -1,0 +1,33 @@
+# Gradle and build output
+.gradle/
+build/
+**/build/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android Studio and IntelliJ
+.idea/
+*.iml
+.navigation/
+*.hprof
+
+# Machine specific configuration
+local.properties
+
+# Secrets and credentials: never commit these
+google-services.json
+secrets.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+service-account*.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

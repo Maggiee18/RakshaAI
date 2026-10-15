@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RakshaAI</string>
+    <string name="app_tagline">Your personal safety companion</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_incidents">Incidents</string>
+    <string name="nav_contacts">Contacts</string>
+    <string name="nav_assistant">Assistant</string>
+
+    <!-- Common -->
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="cd_open_settings">Open settings</string>
+    <string name="milestone_label">Coming next</string>
+    <string name="error_no_dialer">No phone app is available to open the dialer on this device.</string>
+
+    <!-- SOS button -->
+    <string name="sos_label">SOS</string>
+    <string name="sos_button_hint">Tap to begin</string>
+    <string name="sos_button_content_description">Open the emergency SOS workflow</string>
+
+    <!-- Home -->
+    <string name="home_sos_title">Need help right now?</string>
+    <string name="home_sos_subtitle">Open the emergency screen to call for help or alert people you trust.</string>
+    <string name="home_sos_footer">You will always review and confirm before any alert is sent.</string>
+    <string name="home_quick_actions">Quick actions</string>
+    <string name="home_action_report">Report incident</string>
+    <string name="home_action_contacts">Trusted contacts</string>
+    <string name="home_action_assistant">Ask assistant</string>
+    <string name="home_action_emergency_numbers">Emergency numbers</string>
+    <string name="home_contacts_title">Trusted contacts</string>
+    <string name="home_contacts_manage">Manage</string>
+    <string name="home_contacts_empty_title">No trusted contacts yet</string>
+    <string name="home_contacts_empty_message">Add people you trust so you can reach them quickly in an emergency.</string>
+    <string name="home_contacts_empty_action">Set up contacts</string>
+    <string name="home_incidents_title">Recent incidents</string>
+    <string name="home_incidents_view_all">View all</string>
+    <string name="home_incidents_empty_title">No incident reports yet</string>
+    <string name="home_incidents_empty_message">Record what happened while details are fresh. Reports stay on this device.</string>
+    <string name="home_incidents_empty_action">Create a report</string>
+    <string name="home_assistant_title">AI safety assistant</string>
+    <string name="home_assistant_message">Ask how RakshaAI works or where to find safety resources. AI answers can be wrong, so in danger call 112 first.</string>
+    <string name="home_assistant_action">Open assistant</string>
+    <string name="cd_emergency_contact">Emergency contact</string>
+
+    <!-- Incidents -->
+    <string name="incidents_title">Incident reports</string>
+    <string name="incidents_new_report">New report</string>
+    <string name="incidents_milestone_notice">Saving, editing and deleting reports with offline storage arrives in Milestone 2.</string>
+    <string name="incidents_empty_title">Your reports will appear here</string>
+    <string name="incidents_empty_message">Each report keeps a title, description, category, time, optional location and status.</string>
+    <string name="incident_editor_title">New incident report</string>
+    <string name="incident_editor_milestone_notice">The report form with input validation and Room storage arrives in Milestone 2. Nothing is saved from this screen yet.</string>
+
+    <string name="incident_category_harassment">Harassment</string>
+    <string name="incident_category_stalking">Stalking</string>
+    <string name="incident_category_theft">Theft</string>
+    <string name="incident_category_assault">Assault</string>
+    <string name="incident_category_accident">Accident</string>
+    <string name="incident_category_medical">Medical</string>
+    <string name="incident_category_other">Other</string>
+
+    <string name="incident_status_open">Open</string>
+    <string name="incident_status_reported">Reported to authorities</string>
+    <string name="incident_status_resolved">Resolved</string>
+
+    <!-- Contacts -->
+    <string name="contacts_title">Trusted contacts</string>
+    <string name="contacts_milestone_notice">Adding, editing, deleting and choosing emergency contacts arrives in Milestone 3. Contacts will be stored only on this device.</string>
+    <string name="contacts_empty_title">No trusted contacts yet</string>
+    <string name="contacts_empty_message">Trusted contacts are the people RakshaAI can help you alert during an emergency.</string>
+
+    <!-- Emergency -->
+    <string name="emergency_title">Emergency</string>
+    <string name="emergency_workflow_title">Alert workflow</string>
+    <string name="emergency_workflow_status">Alerts to trusted contacts are not available yet. Nothing is sent from this screen.</string>
+    <string name="emergency_workflow_milestone_notice">The confirm, send and result steps for alerting trusted contacts arrive in Milestone 3, starting in a clearly labeled demo mode.</string>
+    <string name="emergency_numbers_title">Call for help</string>
+    <string name="emergency_numbers_disclaimer">These buttons open your phone dialer with the number filled in. The call starts only when you press call. Numbers listed are for India.</string>
+    <string name="emergency_dial">Dial</string>
+    <string name="cd_dial_number">Open dialer for %1$s</string>
+
+    <string name="resource_112_name">National emergency</string>
+    <string name="resource_112_description">Police, fire and ambulance through ERSS</string>
+    <string name="resource_1091_name">Women helpline</string>
+    <string name="resource_1091_description">Police helpline for women in distress</string>
+    <string name="resource_181_name">Women helpline</string>
+    <string name="resource_181_description">Support and referral for women affected by violence</string>
+    <string name="resource_108_name">Ambulance</string>
+    <string name="resource_108_description">Medical emergencies in most states</string>
+    <string name="resource_1098_name">Childline</string>
+    <string name="resource_1098_description">Help for children in need of care and protection</string>
+
+    <!-- Assistant -->
+    <string name="assistant_title">AI safety assistant</string>
+    <string name="assistant_danger_title">In immediate danger?</string>
+    <string name="assistant_danger_message">Call 112 now. Do not wait for an AI response.</string>
+    <string name="assistant_danger_action">Call 112</string>
+    <string name="assistant_disclaimer_title">About AI answers</string>
+    <string name="assistant_disclaimer_message">The assistant explains app features and points you to safety resources. Its answers can be incorrect and are not verified emergency information.</string>
+    <string name="assistant_milestone_notice">The chat will connect to your configured backend in Milestone 4. No AI requests are made yet.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_alerts">Emergency alerts</string>
+    <string name="settings_alert_delivery">Alert delivery</string>
+    <string name="settings_alert_delivery_value">Not configured. The SOS workflow will run in a clearly labeled demo mode until a delivery service is set up.</string>
+    <string name="settings_section_privacy">Privacy</string>
+    <string name="settings_storage">Data storage</string>
+    <string name="settings_storage_value">Reports and contacts are kept on this device. Nothing is uploaded without your explicit action.</string>
+    <string name="settings_analytics">Analytics</string>
+    <string name="settings_analytics_value">Not enabled. Incident text and location will never be sent to analytics.</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_disclaimer">Disclaimer</string>
+    <string name="settings_disclaimer_value">RakshaAI is a portfolio project and does not replace official emergency services.</string>
+</resources>
